@@ -1,4 +1,4 @@
-![MAMSI_tutorials_logo](mamsi_tutorials_logo.svg)
+![MAMSI_tutorials_logo](mamsi_tutorials_logo.png)
 
 [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 
@@ -25,7 +25,7 @@ pip install .
 ```
 ##
 
-You can clone this repository and use the tutorials provided in form of Jupyter notebooks (listed above), or you can follow this quickstart tutorial.
+You can clone this repository and use the tutorials provided in form of Jupyter notebooks (listed above), or you can follow this quickstart guide.
 
 **Load Packages**
 ```python 
