@@ -10,7 +10,7 @@ The **MAMSI Tutorials** is a tutorial repository for the [MAMSI project](https:/
 | ---------------------------------------------------------- | ----------- |
 | [tutorials/classification.ipynb](tutorials/classification.ipynb) | An easy dive to integrative classification analysis|
 | [tutorials/regression.ipynb](tutorials/regression.ipynb)         | An easy dive to integrative regression analysis|
-| [sample_code/permtest_hpc/](sample_code/permtest_hpc/)     | A guide to perform permutation tesing on a computer cluster </br> (The configuration provided is relevant for Imperial HPC) |
+| [sample_code/permtest_hpc/](sample_code/permtest_hpc/)     | A guide to perform permutation testing on a computer cluster </br> (The configuration provided is relevant for Imperial HPC) |
 
 # Quickstart
 To start learning from the **MAMSI Tutorials** repository, you need to install the MAMSI package first. To do so, you can visit the [MAMSI project](https://github.com/kopeckylukas/py-mamsi/tree/main) repository for more information or install it using following commands: 
