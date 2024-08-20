@@ -1,8 +1,8 @@
 ![MAMSI_tutorials_logo](MAMSI_tutorials_logo.png)
 
-[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](LICENSE)
 
-The **MAMSI Tutorials** is a tutorial repository for the [MAMSI project](https://github.com/kopeckylukas/py-mamsi/tree/main). It provides a Quickstart guide for integrating multiple multi-assay liquid chromatography – mass spectrometry (LC-MS) metabolomics datasets. 
+The **MAMSI Tutorials** is a tutorial repository for the [MAMSI project](https://github.com/kopeckylukas/py-mamsi/tree/main). It provides a quickstart guide for integrating multiple multi-assay liquid chromatography – mass spectrometry (LC-MS) metabolomics datasets. 
 
 # Content
 
@@ -10,7 +10,7 @@ The **MAMSI Tutorials** is a tutorial repository for the [MAMSI project](https:/
 | ---------------------------------------------------------- | ----------- |
 | [tutorials/classification.ipynb](tutorials/classification.ipynb) | An easy dive to integrative classification analysis|
 | [tutorials/regression.ipynb](tutorials/regression.ipynb)         | An easy dive to integrative regression analysis|
-| [sample_code/permtest_hpc/](sample_code/permtest_hpc/)     | A guide to perform permutation testing on a computer cluster </br> (The configuration provided is relevant for Imperial HPC) |
+| [sample_code/permtest_hpc/](sample_code/permtest_hpc/)     | A guide to perform permutation testing on a computer cluster </br> (the configuration provided is relevant for Imperial HPC) |
 
 # Quickstart
 To start learning from the **MAMSI Tutorials** repository, you need to install the MAMSI package first. To do so, you can visit the [MAMSI project](https://github.com/kopeckylukas/py-mamsi/tree/main) repository for more information or install it using following commands: 
@@ -25,7 +25,7 @@ pip install .
 ```
 ##
 
-You can clone this repository and use the tutorials provided in form of Jupyter notebooks (listed above), or you can follow this quickstart guide.
+You can clone this repository and use the tutorials provided in the form of Jupyter notebooks (listed above), or you can follow this quickstart guide.
 
 **Load Packages**
 ```python 
@@ -36,7 +36,7 @@ import numpy as np
 ```
 
 **Load Sample Data** 
-<br> Data used within this quickstart guide originate from the the [AddNeuroMed](https://nyaspubs.onlinelibrary.wiley.com/doi/10.1111/j.1749-6632.2009.05064.x) (S. Lovestone *et. al* 2009, Ann. N. Y. Acad. Sci.) cohort - dataset of Alzheimer's disease patients. 
+<br> Data used within this quickstart guide originate from the [AddNeuroMed](https://nyaspubs.onlinelibrary.wiley.com/doi/10.1111/j.1749-6632.2009.05064.x) (S. Lovestone *et. al* 2009, Ann. N. Y. Acad. Sci.) cohort - dataset of Alzheimer's disease patients. 
 
 ```python
 metadata = pd.read_csv('../sample_data/alz_metadata.csv')
@@ -60,7 +60,7 @@ mamsipls.estimate_lv([hpos, lpos, lneg], y_train, metric='auc')
 ```
 
 **Estimate Feature Importance**
-<br> You can visualise the Multiblock Variable Importance in Projection (MB-VIP):
+<br> You can visualise the MB-VIP:
 ```python
 mb_vip = mamsipls.mb_vip(plot=True)
 ```
