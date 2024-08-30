@@ -2,6 +2,8 @@
 
 [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](LICENSE)
 [![Docs](https://img.shields.io/badge/docs-available-brightgreen.svg)](https://kopeckylukas.github.io/py-mamsi/)
+[![PyPI version](https://img.shields.io/pypi/v/mamsi.svg)](https://pypi.org/project/mamsi/)
+[![DOI](https://zenodo.org/badge/823594568.svg)](https://zenodo.org/doi/10.5281/zenodo.13619607)
 
 
 The **MAMSI Tutorials** is a tutorial repository for the [MAMSI project](https://github.com/kopeckylukas/py-mamsi/tree/main). It provides a quickstart guide for integrating multiple multi-assay liquid chromatography – mass spectrometry (LC-MS) metabolomics datasets. 
@@ -18,13 +20,14 @@ The **MAMSI Tutorials** is a tutorial repository for the [MAMSI project](https:/
 To start learning from the **MAMSI Tutorials** repository, you need to install the MAMSI package first. To do so, you can visit the MAMSI project [repository](https://github.com/kopeckylukas/py-mamsi/tree/main) or [documentation](https://kopeckylukas.github.io/py-mamsi/) for more information or install it using following commands: 
 
 ## Installation
+### Installing with Pip
+You can install MAMSI from PyPI using pip: 
 ```bash
-git https://github.com/kopeckylukas/py-mamsi
-
-cd py-mamsi
-
-pip install .
+pip install mamsi
 ```
+
+For more information visit [MAMSI docs](https://kopeckylukas.github.io/py-mamsi/).
+
 ##
 
 You can clone this repository and use the tutorials provided in the form of Jupyter notebooks (listed above), or you can follow this quickstart guide.
@@ -114,12 +117,27 @@ This MAMSI and MAMSI Tutorials repositories were developed as part of Lukas Kope
 
 The authors of the MAMSI package would like to acknowledge the authors of the [mbpls](https://pypi.org/project/mbpls/) [[3](#references)] package which became the backbone of MAMSI. Further, we would like thank to Prof Simon Lovestone for allowing us to use their AddNeuroMed [[1](#references)] data for the development of this package and for use in these tutorials. 
 
-# Citation
-If you use MAMSI or MAMSI Tutorials in a scientific publication, we would appreciate citations. A publication for the MAMSI project is currently under the review process.
+# Citing us
+If you use MAMSI in a scientific publication, we would appreciate citations. 
+
+## Release
+```
+@misc{MAMSI2024,
+  author       = {Lukas Kopecky, Elizabeth J Want, Timothy MD Ebbels},
+  title        = {MAMSI: Multi-Assay Mass Spectrometry Integration},
+  year         = 2024,
+  url          = {https://doi.org/10.5281/zenodo.13619607},
+  note         = {Zenodo. Version 1.0.0},
+  doi          = {10.5281/zenodo.13619607}
+}
+```
+
+## Publication
+The MAMSI publication is currently under the review process. 
 
 # References
-[1] S. Lovestone et al., "AddNeuroMed—The European Collaboration for the Discovery of Novel Biomarkers for Alzheimer's Disease," *Ann. N. Y. Acad. Sci*, vol. 1180, no. 1, pp. 36-46, 2009, doi: [10.1111/j.1749-6632.2009.05064.x](https://nyaspubs.onlinelibrary.wiley.com/doi/10.1111/j.1749-6632.2009.05064.x).
+[1] S. Lovestone *et al.*, "AddNeuroMed—The European Collaboration for the Discovery of Novel Biomarkers for Alzheimer's Disease," *Ann. N. Y. Acad. Sci*, vol. 1180, no. 1, pp. 36-46, 2009, doi: [10.1111/j.1749-6632.2009.05064.x](https://nyaspubs.onlinelibrary.wiley.com/doi/10.1111/j.1749-6632.2009.05064.x).
 
-[2] A. M. Wolfer et al., "peakPantheR, an R package for large-scale targeted extraction and integration of annotated metabolic features in LC–MS profiling datasets," *Bioinformatics*, vol. 37, no. 24, pp. 4886-4888, 2021, doi: [10.1093/bioinformatics/btab433](https://academic.oup.com/bioinformatics/article/37/24/4886/6298587).
+[2] A. M. Wolfer *et al.*, "peakPantheR, an R package for large-scale targeted extraction and integration of annotated metabolic features in LC–MS profiling datasets," *Bioinformatics*, vol. 37, no. 24, pp. 4886-4888, 2021, doi: [10.1093/bioinformatics/btab433](https://academic.oup.com/bioinformatics/article/37/24/4886/6298587).
 
 [3] A. Baum and L. Vermue, "Multiblock PLS: Block dependent prediction modeling for Python," *J. Open Source Softw.*, vol. 4, no. 34, 2019, doi: [10.21105/joss.01190](https://joss.theoj.org/papers/10.21105/joss.01190).
