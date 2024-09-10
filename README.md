@@ -4,6 +4,8 @@
 [![Docs](https://img.shields.io/badge/docs-available-brightgreen.svg)](https://kopeckylukas.github.io/py-mamsi/)
 [![PyPI version](https://img.shields.io/pypi/v/mamsi.svg)](https://pypi.org/project/mamsi/)
 [![DOI](https://zenodo.org/badge/823594568.svg)](https://zenodo.org/doi/10.5281/zenodo.13619607)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1wITfnDgGnJt6yJNur8E_ti6vqSQxpWb6#scrollTo=yMIY5stCq4JN)
+
 
 
 The **MAMSI Tutorials** is a tutorial repository for the [MAMSI project](https://github.com/kopeckylukas/py-mamsi/tree/main). It provides a quickstart guide for integrating multiple multi-assay liquid chromatography – mass spectrometry (LC-MS) metabolomics datasets. 
@@ -11,8 +13,8 @@ The **MAMSI Tutorials** is a tutorial repository for the [MAMSI project](https:/
 # Content
 
 | File                                                               | Description                                          |
-| ----------------------------------------------------------------   | ---------------------------------------------------- |
-| [tutorials/classification.ipynb](tutorials/classification.ipynb)   | An easy dive to integrative classification analysis  |
+| ----------------------------------------------------------------   | ---------------------------------------------------- | 
+| [tutorials/classification.ipynb](tutorials/classification.ipynb)    | An easy dive to integrative classification analysis  |
 | [tutorials/regression.ipynb](tutorials/regression.ipynb)           | An easy dive to integrative regression analysis      |
 | [sample_code/permtest_hpc/](sample_code/permtest_hpc/)             | A guide to perform permutation testing on a computer cluster </br> (the configuration provided is relevant for Imperial HPC) |
 
