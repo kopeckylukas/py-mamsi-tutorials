@@ -23,6 +23,8 @@ To start learning from the **MAMSI Tutorials** repository, you need to install t
 
 ## Installation
 ### Installing with Pip
+*`Note:` On some Windows-based machines error arises with handling int32 in `.montecarlo_cv()` method that will be fixed in v1.0.5. If you are using Windows-based system, install MAMSI from source code.*
+
 You can install MAMSI from PyPI using pip: 
 ```bash
 pip install mamsi
