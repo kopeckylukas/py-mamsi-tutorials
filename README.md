@@ -121,22 +121,24 @@ This MAMSI and MAMSI Tutorials repositories were developed as part of Lukas Kope
 The authors of the MAMSI package would like to acknowledge the authors of the [mbpls](https://pypi.org/project/mbpls/) [[3](#references)] package which became the backbone of MAMSI. Further, we would like thank to Prof Simon Lovestone for allowing us to use their AddNeuroMed [[1](#references)] data for the development of this package and for use in these tutorials. 
 
 # Citing us
-If you use MAMSI in a scientific publication, we would appreciate citations. 
+If you use MAMSI in a scientific publication, we would appreciate citations. The MAMSI publication is available Open Access from [https://pubs.acs.org/doi/abs/10.1021/acs.analchem.5c01327](https://pubs.acs.org/doi/abs/10.1021/acs.analchem.5c01327)
 
-## Release
+You can cite this article as: 
+
 ```
-@misc{MAMSI2024,
-  author       = {Lukas Kopecky, Elizabeth J Want, Timothy MD Ebbels},
-  title        = {MAMSI: Multi-Assay Mass Spectrometry Integration},
-  year         = 2024,
-  url          = {https://doi.org/10.5281/zenodo.13619607},
-  note         = {Zenodo. Version 1.0.0},
-  doi          = {10.5281/zenodo.13619607}
+@article{MAMSI2025,
+   author = {Kopecky, Lukas and Sands, Caroline J. and Gómez-Romero, María and Misra, Shivani and Want, Elizabeth J. and Ebbels, Timothy M. D.},
+   title = {MAMSI: Integration of Multiassay Liquid Chromatography–Mass Spectrometry Metabolomics Data Using Multiview Machine Learning},
+   journal = {Analytical Chemistry},
+   note = {doi: 10.1021/acs.analchem.5c01327},
+   ISSN = {0003-2700},
+   DOI = {10.1021/acs.analchem.5c01327},
+   url = {https://pubs.acs.org/doi/abs/10.1021/acs.analchem.5c01327},
+   year = {2025},
+   type = {Journal Article}
 }
 ```
 
-## Publication
-The MAMSI publication is currently under the review process. 
 
 # References
 [1] S. Lovestone *et al.*, "AddNeuroMed—The European Collaboration for the Discovery of Novel Biomarkers for Alzheimer's Disease," *Ann. N. Y. Acad. Sci*, vol. 1180, no. 1, pp. 36-46, 2009, doi: [10.1111/j.1749-6632.2009.05064.x](https://nyaspubs.onlinelibrary.wiley.com/doi/10.1111/j.1749-6632.2009.05064.x).
